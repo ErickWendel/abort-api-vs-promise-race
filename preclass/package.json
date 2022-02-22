@@ -1,0 +1,18 @@
+{
+  "name": "preclass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "01-promise-race.js",
+  "type": "module",
+  "scripts": {
+    "start-server": "node server.js",
+    "promise-race": "node --experimental-fetch --no-warnings 01-promise-race.js",
+    "abort-signal": "node --experimental-fetch --no-warnings 02-abort-signal.js"
+  },
+  "keywords": [],
+  "author": "erickwendel",
+  "license": "ISC",
+  "engines": {
+    "node": "17.5.0"
+  }
+}
